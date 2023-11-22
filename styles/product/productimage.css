@@ -1,0 +1,118 @@
+.productimage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.productimage__container{
+    width: 280px;
+}
+
+.productimage__container-img{
+    width: 100%;
+    height: 328px;
+    position: relative;
+}
+
+.productimage__container-recommendation{
+    display: none;
+}
+
+@media screen and (min-width: 375px){
+    .productimage__container{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .productimage__container{
+        width: 390px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .productimage__container{
+        width: 450px;
+    }
+
+    .productimage__container-img{
+        height: 450px;
+        margin-bottom: 20px;
+    }
+
+    .productimage__container-recommendation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 18px;
+        background-color: #ffffff;
+        padding: 24px;
+    }
+
+    .productimage__recommendation-img-name-star{
+        display: flex;
+        gap: 13px;
+    }
+
+    .productimage__recommendation-img{
+        position: relative;
+        width: 48px;
+        height: 48px;
+    }
+
+    .productimage__recommendation-name-star{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .productimage__recommendation-star{
+        display: flex;
+    }
+
+    .productimage__recommendation-star-ico{
+        position: relative;
+        width: 11.95px;
+        height: 11.95px;
+    }
+
+    .productimage__recommendation-name-container{
+        display: flex;
+        gap: 10px;
+    }
+
+    .productimage__recommendation-name{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+        color: #333333;
+    }
+
+    .productimage__recommendation-name-img{
+        position: relative;
+        width: 16px;
+        height: 16px;
+    }
+
+    .productimage__recommendation-name-text{
+        font-size: 12px;
+        line-height: 14.4px;
+        color: #5BB59A;
+    }
+
+    .productimage__recommendation-comment{
+        font-size: 16px;
+        color: #4D5254;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .productimage__container{
+        width: 575px;
+    }
+
+    .productimage__container-img{
+        height: 591px;
+    }
+}

@@ -1,0 +1,135 @@
+.orderinstructionsteps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.orderinstructionsteps__container{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.orderinstructionsteps__title{
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.orderinstructionsteps__text1{
+    font-size: 16px;
+    color: #4D5254;
+    text-align: center;
+}
+.orderinstructionsteps__text2{
+    display: none;
+}
+
+.orderinstructionsteps__container-steps{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.orderinstructionsteps__container-steps-img-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.orderinstructionsteps__container-steps-img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.orderinstructionsteps__container-steps-text{
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+
+@media screen and (min-width: 375px){
+    .orderinstructionsteps__container{
+        width: 350px;
+    }
+
+    .orderinstructionsteps__container-steps{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .orderinstructionsteps__container{
+        width: 390px;
+    }
+
+    .orderinstructionsteps__text1{
+        display: none;
+    }
+    .orderinstructionsteps__text2{
+        display: block;
+        color: #4D5254;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .orderinstructionsteps{
+        margin-bottom: 50px;
+    }
+
+    .orderinstructionsteps__container{
+        width: 700px;
+    }
+
+    .orderinstructionsteps__title{
+        font-size: 48px;
+    }
+    
+    .orderinstructionsteps__text2{
+        font-size: 24px;
+    }
+
+    .orderinstructionsteps__container-steps{
+        gap: 0;
+    }
+
+    .orderinstructionsteps__container-steps-img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .orderinstructionsteps__container-steps-text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .orderinstructionsteps{
+        margin-top: 10px;
+    }
+
+    .orderinstructionsteps__container{
+        width: 1000px;
+    }
+
+    .orderinstructionsteps__container-steps-img-text{
+        margin-top: 30px;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .orderinstructionsteps__container{
+        width: 1200px;
+    }
+}

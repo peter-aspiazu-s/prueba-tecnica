@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-bold{
+    font-weight: 600
+}
+
+@import url(./swiper.css);
+@import url(./header/headercomponent.css);
+@import url(./header/headernotice.css);
+@import url(./header/headerlogoandbrands.css);
+@import url(./order/orderinstructionsteps.css);
+@import url(./product/productcomponent.css);
+@import url(./product/productpromotionalprice.css);
+@import url(./product/productimage.css);
+@import url(./product/productinformationandpaymentmethods.css);
+@import url(./footer/footer.css);
